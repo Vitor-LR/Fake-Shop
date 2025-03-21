@@ -19,7 +19,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          file: ./src/Dockerfile
+          file: ./fake-shop/src/Dockerfile
           tags: vitorlr/fake-shop-desafio:v2
 
 
